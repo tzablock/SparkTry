@@ -38,7 +38,6 @@ object CheckHotToPutSparkSessionIntoFunction {
     }
     )
     in.withColumn("new",someUds(List(1,2,3))($"_c0")).show()
-
   }
 
 }
